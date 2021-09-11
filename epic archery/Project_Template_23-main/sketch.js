@@ -53,7 +53,11 @@ function draw() {
 
    //display Player and computerplayer
 
-   if(keyCode===32){
-      arrow.shoot(playerArcher.body.angle);
-  }
+
+}
+
+function keyPressed(){
+  if(keyCode===32){
+    arrow.shoot(playerArcher.body.angle);
+}
 }
